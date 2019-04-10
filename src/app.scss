@@ -1,0 +1,272 @@
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Laila:400,700');
+@import 'scss/devicon';
+
+
+$blue: #089a9c;
+$purple: #bf0a91;
+$dark: #000;
+$darkLight: #666;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    position: relative;
+    min-height: 100vh;
+    font-size: 14px;
+    color: #666;
+
+    header {
+        padding: 15px 0;
+
+        background-image: url(../../images/hexagon-xl-3.png);
+        background-position: right 15% top;
+        background-repeat: no-repeat;
+        background-size: 200px;
+
+        #logo {
+            float: left;
+            margin: 30px 15px 30px 0;
+        }
+
+        .centerVname {
+            padding: 30px 0;
+            float: left;
+
+            .name {
+                color: $dark;
+                font-size: 36px;
+                letter-spacing: -1.75px;
+            }
+
+            .role {
+                color: $darkLight;
+                font-size: 14px;
+                letter-spacing: 2.3px;
+            }
+        }
+    }
+
+    section {
+        padding: 0 0 80px;
+
+        .min-container {
+            padding: 0 30px;
+        }
+
+        &#experience {
+            background-image: url(../../images/hexagon-xl.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+
+        &#skills {
+            background-image: url(../../images/hexagon-xl-2.png);
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
+
+        .section-title {
+            margin-bottom: 40px;
+
+            h2 {
+                color: $blue;
+                letter-spacing: -0.5px;
+                font-size: 22px;
+                text-transform: uppercase;
+                background-size: 24px 24px;
+                background-repeat: no-repeat;
+                padding-left: 28px;
+
+                &.layer {
+                    background-image: url(../images/layer.svg);
+                }
+
+                &.skills {
+                    background-image: url(../images/skills.png);
+                }
+
+                &.ranking {
+                    background-image: url(../images/ranking-skills.png);
+                }
+            }
+        }
+
+        #icons {
+            a {
+                text-decoration: none;
+                display: inline-block;
+                margin-right: 55px;
+                margin-bottom: 55px;
+                i {
+                    font-size: 36px;
+                    color: $purple;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .skill {
+            position: relative;
+            margin-bottom: 15px;
+            strong {
+                font-size: 16px;
+                font-weight: normal;
+            }
+            .rank {
+                width: 180px;
+                height: 5px;
+                background: #eee;
+                border-radius: 3px;
+                transform: translateY(-50%);
+                top: 50%;
+                position: absolute;
+                right: 35px;
+                span {
+                    position: absolute;
+                    height: 5px;
+                    background: $blue;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .experience {
+            strong {
+                font-weight: bold;
+            }
+
+            .red {
+                color: $purple;
+            }
+
+            .text {
+                &.years {
+                    font-size: 12px;
+                }
+
+                &.desc {
+                    padding: 10px 0 25px;
+                }
+
+                &.first-row {
+                    padding-bottom: 50px;
+                }
+
+                &-label {
+                    display: inline-block;
+                    margin-right: 14px;
+                    // font-weight: bold;
+                    color: #333;
+
+                    .label {
+                        background-size: 16px 16px;
+                        width: 16px;
+                        height: 16px;
+                        display: inline-block;
+                        margin-right: 2px;
+
+                        strong {
+                            display: inline-block;
+                        }
+
+                        &-company {
+                            background-image: url(../images/company.png);
+                        }
+
+                        &-role {
+                            background-image: url(../images/role.png);
+                        }
+
+                        &-location {
+                            background-image: url(../images/place.png);
+                        }
+                    }
+                }
+            }
+
+            .text.years {
+                font-size: 12px;
+            }
+
+            .text.desc {
+                padding-bottom: 50px;
+            }
+
+            .text.first-row {
+                padding-bottom: 50px;
+            }
+        }
+
+        .div {
+            width: 2px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -1px;
+            bottom: 0;
+            background: #ccc;
+
+            &.last {
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,ffffff+100 */
+                background: rgb(204, 204, 204);
+                /* Old browsers */
+                background: -moz-linear-gradient(top, rgba(204, 204, 204, 1) 0%, rgba(255, 255, 255, 1) 100%);
+                /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, rgba(204, 204, 204, 1) 0%, rgba(255, 255, 255, 1) 100%);
+                /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom, rgba(204, 204, 204, 1) 0%, rgba(255, 255, 255, 1) 100%);
+                /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ffffff', GradientType=0);
+                /* IE6-9 */
+            }
+        }
+
+        .circle {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -8px;
+            width: 16px;
+            height: 16px;
+            border-radius: 8px;
+            z-index: 99;
+            background: #fff;
+            border: 2px solid #ccc;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                background: #ccc;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+            }
+
+            &.now {
+                background: $purple;
+
+                &:after {
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+}
