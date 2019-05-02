@@ -7,6 +7,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
         <link rel="stylesheet" href="./dist/app.css" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
     </head>
 
     <body>
@@ -14,315 +16,344 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col col-left">
-                        <img src="./images/hexagon.png" width="51.5" height="60" id="logo" />
+                    <div class="col-8 col-left">
+                        <img src="./images/hexagon.png" width="51.5" height="60" id="logo" class="img-responsive" />
                         <div class="centerVname">
                             <h1 class="name">Angelo Pili</h1>
                             <h2 class="role">Software Engineer</h2>
                         </div>
                     </div>
-                    <div class="col col-right text-right">
-                        <img src="./images/imhe.png" width="103" height="120" />
+                    <div class="col-4 col-right text-right">
+                        <img src="./images/imhe.png" width="103" height="120" class="img-responsive" />
                     </div>
                 </div>
             </div>
+            <nav id="menu">
+                <div class="container">
+                    <ul class="left">
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">What I use</a></li>
+                        <li><a href="#ranking">Skills</a></li>
+                    </ul>
+                    <ul class="right">
+                        <li><a href="#experience"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#skills"<i class="fab fa-github"></i></a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </nav>
         </header>
 
-        <section id="experience">
-            <div class="container">
-                <div class="min-container">
-                    <div class="section-title">
-                        <h2 class="layer">EXEPERIENCE</h2>
-                    </div>
+       <div id="App">     
+           <section id="experience">
+               <div class="container">
+                   <div class="min-container">
+                       <div class="section-title">
+                           <h2 class="layer">EXEPERIENCE</h2>
+                       </div>
+    
+                       <div id="timeline">
+    
+                           <div class="experience">
+                               <div class="row">
+                                   <div class="col-lg-2 col-12">
+                                       <div class="text first"><strong>Born</strong></div>
+                                       <div class="text"><span>1986</span></div>
+                                   </div>
+                                   <div class="col-1 hidden-sm-down"><span class="circle"></span><span class="div"></span></div>
+                                   <div class="col-lg-9 col-12">
+                                       <div class="text first-row"><img src="./images/baby.png" alt="" width="24"
+                                               height="24" /></div>
+                                   </div>
+                               </div>
+                           </div>
+    
+                           <div class="experience">
+                               <div class="row">
+                                   <div class="col-lg-2 col-12">
+                                           <div class="text text-label"><strong class="label label-company"></strong> Karalis
+                                               Design</div>
+                                       <div class="text years"><span>2008 &rsaquo; 2014</span></div>
+                                   </div>
+                                   <div class="col-1 hidden-sm-down"><span class="circle"></span><span class="div"></span></div>
+                                   <div class="col-lg-9 col-12">
+                                       <div class="text first text-label"><strong class="label label-role"></strong> Web
+                                           Developer</div>
+                                       
+                                       <div class="text text-label"><strong class="label label-location"></strong> Cagliari
+                                       </div>
+                                       <div class="text desc">
+                                           <ul>
+                                               <li>Development of creative ideas following the client's brief</li>
+                                               <li>Brand care and development</li>
+                                               <li>Graphic design, layout and UX study</li>
+                                               <li>Goal measurement and data analysis</li>
+                                               <li>Application development in custom Php projects and WordPress</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+    
+                           <div class="experience">
+                               <div class="row">
+                                   <div class="col-lg-2 col-12">
+                                           <div class="text text-label"><strong class="label label-company"></strong> Fx
+                                               Creative Studio</div>
+                                       <div class="text years"><span>2014 &rsaquo; 2015</span></div>
+                                   </div>
+                                   <div class="col-1 hidden-sm-down"><span class="circle"></span><span class="div"></span></div>
+                                   <div class="col-lg-9 col-12">
+                                       <div class="text first text-label"><strong class="label label-role"></strong> Web
+                                           Developer</div>
+                                       
+                                       <div class="text text-label"><strong class="label label-location"></strong> Cagliari
+                                       </div>
+                                       <div class="text desc">
+                                           <ul>
+                                               <li>Focus on new HTML5 and CSS3 standards</li>
+                                               <li>Change from Css to SASS</li>
+                                               <li>Use of the Grunt.js and then Gulp.js task runner</li>
+                                               <li>Development on Drupal 7 with Panels, Views and Entity relations</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+    
+                           <div class="experience">
+                               <div class="row">
+                                   <div class="col-lg-2 col-12">
+                                           <div class="text text-label"><strong class="label label-company"></strong> Vivacom srl
+                                           </div>
+                                       <div class="text years"><span>Gen2015 &rsaquo; Jun2015</span></div>
+                                   </div>
+                                   <div class="col-1 hidden-sm-down"><span class="circle"></span><span class="div"></span></div>
+                                   <div class="col-lg-9 col-12">
+                                       <div class="text first text-label"><strong class="label label-role"></strong> Full
+                                           Stack Developer</div>
+                                       
+                                       <div class="text text-label"><strong class="label label-location"></strong> Milan
+                                       </div>
+                                       <div class="text desc">
+                                           <ul>
+                                               <li>Application development on WordPress</li>
+                                               <li>Customized WordPress plugins</li>
+                                               <li>Server management</li>
+                                               <li>Database Administrator</li>
+                                               <li>Application development in Angular.js</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+    
+    
+                           <div class="experience">
+                               <div class="row">
+                                   <div class="col-lg-2 col-12">
+                                           <div class="text text-label"><strong class="label label-company"></strong> Accenture
+                                           </div>
+                                       <div class="text years"><span>Jul2015 &rsaquo; Sep2016</span></div>
+                                   </div>
+                                   <div class="col-1 hidden-sm-down"><span class="circle"></span><span class="div"></span></div>
+                                   <div class="col-lg-9 col-12">
+                                       <div class="text first text-label"><strong class="label label-role"></strong>
+                                           Software Engineer Analyst</div>
+                                       
+                                       <div class="text text-label"><strong class="label label-location"></strong> Milan
+                                       </div>
+                                       <div class="text desc">
+                                           <ul>
+                                               <li>Application development in Drupal 7</li>
+                                               <li>Front-end integration on Liferay with Susy css and a customized Gulp system for deploying packaging</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+    
+    
+                           <div class="experience">
+                               <div class="row">
+                                   <div class="col-lg-2 col-12">
+                                           <div class="text text-label"><strong class="label label-company"></strong> Bryan srl
+                                           </div>
+                                       <div class="text years"><span>Oct2016 &rsaquo; Mar2017</span></div>
+                                   </div>
+                                   <div class="col-1 hidden-sm-down"><span class="circle"></span><span class="div"></span></div>
+                                   <div class="col-lg-9 col-12">
+                                       <div class="text first text-label"><strong class="label label-role"></strong> Web
+                                           Developer</div>
+                                       
+                                       <div class="text text-label"><strong class="label label-location"></strong> Milan
+                                       </div>
+                                       <div class="text desc">
+                                           <ul>
+                                               <li>Multilingual site development with Wordpress and WPML</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+    
+    
+                           <div class="experience">
+                               <div class="row">
+                                   <div class="col-lg-2 col-12">
+                                           <div class="text text-label"><strong class="label label-company"></strong>
+                                               ZampeDiverse srl</div>
+                                       <div class="text years"><span>Mar2017 &rsaquo; Now</span></div>
+                                   </div>
+                                   <div class="col-1 hidden-sm-down"><span class="circle now"></span><span class="div last"></span></div>
+                                   <div class="col-lg-9 col-12">
+                                       <div class="text first text-label"><strong class="label label-role"></strong>
+                                           Software Engineer</div>
+                                       
+                                       <div class="text text-label"><strong class="label label-location"></strong> Carate
+                                           Brianza</div>
+                                       <div class="text desc">
+                                           <ul>
+                                               <li>Development of micro-frontend with Handlebars, Hugo and Contentful</li>
+                                               <li>Development of mini-games with SVG and Vanilla Javascript</li>
+                                               <li>Laravel backend development for instant-win sites</li>
+                                               <li>Development of REST API in WordPress and Laravel</li>
+                                               <li>Development of configuration interfaces for in-store customers</li>
+                                               <li>Development of packaging system for the deployment of static sites</li>
+                                               <li>Development of an automated store object deployment system on Azure and Aws</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+    
+                       </div>
+    
+                   </div>
+               </div>
+           </section>
+    
+           <section id="skills">
+               <div class="container">
+                   <div class="min-container">
+                       <div class="section-title">
+                           <h2 class="skills">programming languages ​​and technologies</h2>
+                       </div>
+                       <div id="icons" class="row">
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-amazonwebservices-original"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-angularjs-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-apache-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-babel-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-bitbucket-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-bootstrap-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-bower-line-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-css3-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-drupal-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-git-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-grunt-line-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-gulp-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-less-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-javascript-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-jquery-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-laravel-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-mysql-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-nodejs-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-php-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-react-original-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-sass-original"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-ssh-plain-wordmark"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-typescript-plain"></i></a></div>
+                           <div class="col-3 col-lg-2"><a href="#"><i class="devicon-wordpress-plain"></i></a></div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+    
+           <section id="ranking">
+               <div class="container">
+                   <div class="min-container">
+                       <div class="section-title">
+                           <h2 class="ranking">Frameworks, Cms and Code skills</h2>
+                       </div>
+                       <div id="ranking-skills">
+                           <div class="row">
+    
+                               <div class="col-lg-4 col-sm-12">
+                                   <div class="skill">
+                                       <strong>LARAVEL</strong>
+                                       <div class="rank"><span style="width: 80%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>WORDPRESS</strong>
+                                       <div class="rank"><span style="width: 100%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>DRUPAL</strong>
+                                       <div class="rank"><span style="width: 60%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>HUGO</strong>
+                                       <div class="rank"><span style="width: 40%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>LIFERAY</strong>
+                                       <div class="rank"><span style="width: 10%"></span></div>
+                                   </div>
+                               </div>
+    
+                               <div class="col-lg-4 col-sm-12">
+                                   <div class="skill">
+                                       <strong>HTML</strong>
+                                       <div class="rank"><span style="width: 100%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>CSS</strong>
+                                       <div class="rank"><span style="width: 100%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>SCSS</strong>
+                                       <div class="rank"><span style="width: 90%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>BLADE</strong>
+                                       <div class="rank"><span style="width: 70%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>HANDLEBARS</strong>
+                                       <div class="rank"><span style="width: 75%"></span></div>
+                                   </div>
+                               </div>
+                               
+                               <div class="col-lg-4 col-sm-12">
+                                   <div class="skill">
+                                       <strong>VANILLA JS</strong>
+                                       <div class="rank"><span style="width: 85%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>JQUERY</strong>
+                                       <div class="rank"><span style="width: 90%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>NODE.JS</strong>
+                                       <div class="rank"><span style="width: 40%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>PHP</strong>
+                                       <div class="rank"><span style="width: 90%"></span></div>
+                                   </div>
+                                   <div class="skill">
+                                       <strong>ES6</strong>
+                                       <div class="rank"><span style="width: 50%"></span></div>
+                                   </div>
+                               </div>
+    
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
+       </div>
 
-                    <div id="timeline">
-
-                        <div class="experience">
-                            <div class="row">
-                                <div class="col-2">
-                                    <div class="text first"><strong>Born</strong></div>
-                                    <div class="text"><span>1986</span></div>
-                                </div>
-                                <div class="col-1"><span class="circle"></span><span class="div"></span></div>
-                                <div class="col-9">
-                                    <div class="text first-row"><img src="./images/baby.png" alt="" width="24"
-                                            height="24" /></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="experience">
-                            <div class="row">
-                                <div class="col-2">
-                                    <div class="text first"><strong>Freelance</strong></div>
-                                    <div class="text years"><span>2008 &rsaquo; 2014</span></div>
-                                </div>
-                                <div class="col-1"><span class="circle"></span><span class="div"></span></div>
-                                <div class="col-9">
-                                    <div class="text first text-label"><strong class="label label-role"></strong> Web
-                                        Developer</div>
-                                    <div class="text text-label"><strong class="label label-company"></strong> Karalis
-                                        Design</div>
-                                    <div class="text text-label"><strong class="label label-location"></strong> Cagliari
-                                    </div>
-                                    <div class="text desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="experience">
-                            <div class="row">
-                                <div class="col-2">
-                                    <div class="text first"><strong>Partner</strong></div>
-                                    <div class="text years"><span>2014 &rsaquo; 2015</span></div>
-                                </div>
-                                <div class="col-1"><span class="circle"></span><span class="div"></span></div>
-                                <div class="col-9">
-                                    <div class="text first text-label"><strong class="label label-role"></strong> Web
-                                        Developer</div>
-                                    <div class="text text-label"><strong class="label label-company"></strong> Fx
-                                        Creative Studio</div>
-                                    <div class="text text-label"><strong class="label label-location"></strong> Cagliari
-                                    </div>
-                                    <div class="text desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="experience">
-                            <div class="row">
-                                <div class="col-2">
-                                    <div class="text first"><strong>Employee</strong></div>
-                                    <div class="text years"><span>Gen2015 &rsaquo; Jun2015</span></div>
-                                </div>
-                                <div class="col-1"><span class="circle"></span><span class="div"></span></div>
-                                <div class="col-9">
-                                    <div class="text first text-label"><strong class="label label-role"></strong> Full
-                                        Stack Developer</div>
-                                    <div class="text text-label"><strong class="label label-company"></strong> Vivacom
-                                    </div>
-                                    <div class="text text-label"><strong class="label label-location"></strong> Milan
-                                    </div>
-                                    <div class="text desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="experience">
-                            <div class="row">
-                                <div class="col-2">
-                                    <div class="text first"><strong>Employee</strong></div>
-                                    <div class="text years"><span>Jul2015 &rsaquo; Sep2016</span></div>
-                                </div>
-                                <div class="col-1"><span class="circle"></span><span class="div"></span></div>
-                                <div class="col-9">
-                                    <div class="text first text-label"><strong class="label label-role"></strong>
-                                        Software Engineer Analyst</div>
-                                    <div class="text text-label"><strong class="label label-company"></strong> Accenture
-                                    </div>
-                                    <div class="text text-label"><strong class="label label-location"></strong> Milan
-                                    </div>
-                                    <div class="text desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="experience">
-                            <div class="row">
-                                <div class="col-2">
-                                    <div class="text first"><strong>Employee</strong></div>
-                                    <div class="text years"><span>Oct2016 &rsaquo; Mar2017</span></div>
-                                </div>
-                                <div class="col-1"><span class="circle"></span><span class="div"></span></div>
-                                <div class="col-9">
-                                    <div class="text first text-label"><strong class="label label-role"></strong> Web
-                                        Developer</div>
-                                    <div class="text text-label"><strong class="label label-company"></strong> Bryan
-                                    </div>
-                                    <div class="text text-label"><strong class="label label-location"></strong> Milan
-                                    </div>
-                                    <div class="text desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="experience">
-                            <div class="row">
-                                <div class="col-2">
-                                    <div class="text first"><strong>Employee</strong></div>
-                                    <div class="text years"><span>Mar2017 &rsaquo; Now</span></div>
-                                </div>
-                                <div class="col-1"><span class="circle now"></span><span class="div last"></span></div>
-                                <div class="col-9">
-                                    <div class="text first text-label"><strong class="label label-role"></strong>
-                                        Software Engineer</div>
-                                    <div class="text text-label"><strong class="label label-company"></strong>
-                                        Zampediverse</div>
-                                    <div class="text text-label"><strong class="label label-location"></strong> Carate
-                                        Brianza</div>
-                                    <div class="text desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="skills">
-            <div class="container">
-                <div class="min-container">
-                    <div class="section-title">
-                        <h2 class="skills">programming languages ​​and technologies</h2>
-                    </div>
-                    <div id="icons">
-                        <a href="#"><i class="devicon-amazonwebservices-original"></i></a>
-                        <a href="#"><i class="devicon-angularjs-plain"></i></a>
-                        <a href="#"><i class="devicon-apache-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-babel-plain"></i></a>
-                        <a href="#"><i class="devicon-bitbucket-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-bootstrap-plain"></i></a>
-                        <a href="#"><i class="devicon-bower-line-wordmark"></i></a>
-                        <a href="#"><i class="devicon-css3-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-drupal-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-git-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-grunt-line-wordmark"></i></a>
-                        <a href="#"><i class="devicon-gulp-plain"></i></a>
-                        <a href="#"><i class="devicon-less-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-javascript-plain"></i></a>
-                        <a href="#"><i class="devicon-jquery-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-laravel-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-mysql-plain"></i></a>
-                        <a href="#"><i class="devicon-nodejs-plain"></i></a>
-                        <a href="#"><i class="devicon-php-plain"></i></a>
-                        <a href="#"><i class="devicon-react-original-wordmark"></i></a>
-                        <a href="#"><i class="devicon-sass-original"></i></a>
-                        <a href="#"><i class="devicon-ssh-plain-wordmark"></i></a>
-                        <a href="#"><i class="devicon-typescript-plain"></i></a>
-                        <a href="#"><i class="devicon-wordpress-plain"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="ranking">
-            <div class="container">
-                <div class="min-container">
-                    <div class="section-title">
-                        <h2 class="ranking">Frameworks, Cms and Code skills</h2>
-                    </div>
-                    <div id="ranking-skills">
-                        <div class="row">
-
-                            <div class="col">
-                                <div class="skill">
-                                    <strong>LARAVEL</strong>
-                                    <div class="rank"><span style="width: 80%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>WORDPRESS</strong>
-                                    <div class="rank"><span style="width: 100%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>DRUPAL</strong>
-                                    <div class="rank"><span style="width: 60%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>HUGO</strong>
-                                    <div class="rank"><span style="width: 40%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>LIFERAY</strong>
-                                    <div class="rank"><span style="width: 10%"></span></div>
-                                </div>
-                            </div>
-
-                            <div class="col">
-                                <div class="skill">
-                                    <strong>HTML</strong>
-                                    <div class="rank"><span style="width: 100%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>CSS</strong>
-                                    <div class="rank"><span style="width: 100%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>SCSS</strong>
-                                    <div class="rank"><span style="width: 90%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>BLADE</strong>
-                                    <div class="rank"><span style="width: 70%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>HANDLEBARS</strong>
-                                    <div class="rank"><span style="width: 75%"></span></div>
-                                </div>
-                            </div>
-                            
-                            <div class="col">
-                                <div class="skill">
-                                    <strong>VANILLA JS</strong>
-                                    <div class="rank"><span style="width: 85%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>JQUERY</strong>
-                                    <div class="rank"><span style="width: 90%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>NODE.JS</strong>
-                                    <div class="rank"><span style="width: 40%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>PHP</strong>
-                                    <div class="rank"><span style="width: 90%"></span></div>
-                                </div>
-                                <div class="skill">
-                                    <strong>ES6</strong>
-                                    <div class="rank"><span style="width: 50%"></span></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
         <script type="text/javascript" src="./dist/app.js"></script>
